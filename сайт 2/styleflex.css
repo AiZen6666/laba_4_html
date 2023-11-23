@@ -1,0 +1,176 @@
+body{
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 163px;
+    margin: 0px auto;
+}
+
+header h1{
+    width: 34%;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+.optik{
+    padding-left: 8%;
+    padding-top:40px;
+}
+
+nav{
+    width: 68%;
+    display: flex;
+    align-self: flex-end;
+    background-color:lightgray;
+    justify-content: flex-end;
+}
+
+nav a{
+    margin-right: 1.8%;
+    margin-top:2.7%;
+    background-color: grey;
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    font-size: 2vw;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.black{
+    background-color: black;
+    margin-left: 13%;
+    height: 48px;
+}
+
+.block1{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.block1 img{
+    width: 33.33%;
+    height: 260px;
+    margin-top: 1px;
+}
+
+.block1 .picture{
+    margin-top: 7px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 25px;
+}
+
+.block2{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.picture2{
+    width: 850px;
+    height: 140px;
+}
+
+.block2 .text1{
+    text-align: justify;
+}
+
+.text1 h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 35px
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.block3{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.block4{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.block4 .text1{
+    text-align: justify;
+}
+
+footer{
+    background-color: grey;
+    padding: 10px;
+}
+
+footer .left{
+    float: left;
+}
+
+footer .right{
+    float: right;
+}
+
+@media (max-width: 700px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .header h1{
+        background-color: white;
+    }
+
+    .optik{
+        margin: 0 auto;
+    }
+
+    nav{
+        width: 100%;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        height: 141.5px;
+    }
+
+    nav a{
+        width: 30%;
+    }
+
+    .black{
+        background-color: grey;
+        height: 30px;
+    }
+    
+    .block1 {
+        flex-direction: column;
+    }
+
+    .block1 img{
+        width: 100%;
+    }
+
+    .block2{
+        flex-direction: column;
+    }
+
+    .picture2{
+        width: 100%;
+    }
+
+    .block4{
+        flex-direction: column;
+    }
+}
